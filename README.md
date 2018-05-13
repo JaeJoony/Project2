@@ -1,4 +1,4 @@
-# Project2
+# Assignment2
 software engineering
 
 조장 2011722072 배득현 (DeukhyunBae)
