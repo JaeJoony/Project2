@@ -31,7 +31,7 @@ int main()
 void filestat1(void)
 {
 }
-voidfilestat2(void)
+void filestat2(void)
 {
 }
 void filetime1(void)
