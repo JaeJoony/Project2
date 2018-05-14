@@ -53,12 +53,35 @@ void sizecmp()
 	else
 		printf("sizes are equal\n");
 }
+
 void blockcmp()
 {
+	if(stat1.st_blocks > stat2.st_blocks)
+		printf("text1 is bigger. \n");
+	else if(stat1.st_blocks < stat2.st_blocks)
+		printf("text2 is bigger. \n");
+	else
+		printf("sizes are equal. \n");
+
 }
+
+ 
+
 void datacmp()
 {
+	if(time1->tm_mon > time2->tm_mon)
+		printf("text2 is early. \n");
+	else if(time1->tm_mon < time2->tm_mon)
+		printf("text1 is early. \n");
+	else {
+		if(time1->tm_mday > time2->tm_mday)
+			printf("text2 is early. \n")
+		else if(time1->tm_mday < time2->tm_mday)
+			printf("text1 is early. \n")
+		printf("same time. \n");
+	}
 }
+
 void timecmp()
 {
 }
