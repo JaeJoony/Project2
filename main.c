@@ -33,7 +33,7 @@ void filestat1(void)
 	stat("text1", &stat1);
 	printf("size : %d\n", (int)stat1.st_size);
 }
-voidfilestat2(void)
+void filestat2(void)
 {
 }
 void filetime1(void)
